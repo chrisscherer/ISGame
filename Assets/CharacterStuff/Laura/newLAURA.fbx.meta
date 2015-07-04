@@ -1,0 +1,891 @@
+fileFormatVersion: 2
+guid: be4b8765fb84040b0a2bb92898ced66c
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: ANKLE_L
+    100002: ANKLE_R
+    100004: Area
+    100006: Armature
+    100008: BICEP_L
+    100010: BICEP_R
+    100012: CHEST
+    100014: Cylinder_011
+    100016: Empty
+    100018: FINGERS_L
+    100020: FINGERS_R
+    100022: FOOT_L
+    100024: FOOT_R
+    100026: FOREARM_L
+    100028: FOREARM_R
+    100030: HEAD
+    100032: HIP_L
+    100034: HIP_R
+    100036: JET_L
+    100038: JET_R
+    100040: LOWER_AB
+    100042: NECK
+    100044: //RootNode
+    100046: PALM_L
+    100048: PALM_R
+    100050: SHOULDER_L
+    100052: SHOULDER_R
+    100054: tail_L
+    100056: Tail_r
+    100058: thigh_L
+    100060: THIGH_R
+    100062: THUMB_L
+    100064: THUMB_R
+    100066: UPPER_AB
+    400000: ANKLE_L
+    400002: ANKLE_R
+    400004: Area
+    400006: Armature
+    400008: BICEP_L
+    400010: BICEP_R
+    400012: CHEST
+    400014: Cylinder_011
+    400016: Empty
+    400018: FINGERS_L
+    400020: FINGERS_R
+    400022: FOOT_L
+    400024: FOOT_R
+    400026: FOREARM_L
+    400028: FOREARM_R
+    400030: HEAD
+    400032: HIP_L
+    400034: HIP_R
+    400036: JET_L
+    400038: JET_R
+    400040: LOWER_AB
+    400042: NECK
+    400044: //RootNode
+    400046: PALM_L
+    400048: PALM_R
+    400050: SHOULDER_L
+    400052: SHOULDER_R
+    400054: tail_L
+    400056: Tail_r
+    400058: thigh_L
+    400060: THIGH_R
+    400062: THUMB_L
+    400064: THUMB_R
+    400066: UPPER_AB
+    4300000: Cylinder_011
+    7400000: AIC
+    7400002: LFlyUp
+    7400004: LFlyDown
+    7400006: LFlyRight
+    7400008: LFlyLeft
+    7400010: LFlyForward
+    7400012: LFlyBack
+    7400014: LIdle
+    7400016: ArmatureAction_012
+    7400018: ArmatureAction_013
+    9500000: //RootNode
+    13700000: Cylinder_011
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: AIC
+      takeName: Default Take
+      firstFrame: -1
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Area
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Empty
+        weight: 1
+      - path: Armature/LOWER_AB
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L/ANKLE_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L/ANKLE_L/FOOT_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L/tail_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R/ANKLE_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R/ANKLE_R/FOOT_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R/Tail_r
+        weight: 1
+      - path: Armature/UPPER_AB
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/JET_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/JET_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/NECK
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/NECK/HEAD
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L/PALM_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L/PALM_L/FINGERS_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L/THUMB_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R/PALM_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R/PALM_R/FINGERS_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R/THUMB_R
+        weight: 1
+      - path: Cylinder_011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: LFlyUp
+      takeName: ArmatureAction_005
+      firstFrame: -1
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Area
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Empty
+        weight: 1
+      - path: Armature/LOWER_AB
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L/ANKLE_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L/ANKLE_L/FOOT_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L/tail_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R/ANKLE_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R/ANKLE_R/FOOT_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R/Tail_r
+        weight: 1
+      - path: Armature/UPPER_AB
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/JET_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/JET_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/NECK
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/NECK/HEAD
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L/PALM_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L/PALM_L/FINGERS_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L/THUMB_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R/PALM_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R/PALM_R/FINGERS_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R/THUMB_R
+        weight: 1
+      - path: Cylinder_011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: LFlyDown
+      takeName: ArmatureAction_006
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Area
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Empty
+        weight: 1
+      - path: Armature/LOWER_AB
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L/ANKLE_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L/ANKLE_L/FOOT_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L/tail_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R/ANKLE_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R/ANKLE_R/FOOT_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R/Tail_r
+        weight: 1
+      - path: Armature/UPPER_AB
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/JET_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/JET_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/NECK
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/NECK/HEAD
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L/PALM_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L/PALM_L/FINGERS_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L/THUMB_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R/PALM_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R/PALM_R/FINGERS_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R/THUMB_R
+        weight: 1
+      - path: Cylinder_011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: LFlyRight
+      takeName: ArmatureAction_007
+      firstFrame: -1
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Area
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Empty
+        weight: 1
+      - path: Armature/LOWER_AB
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L/ANKLE_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L/ANKLE_L/FOOT_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L/tail_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R/ANKLE_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R/ANKLE_R/FOOT_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R/Tail_r
+        weight: 1
+      - path: Armature/UPPER_AB
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/JET_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/JET_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/NECK
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/NECK/HEAD
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L/PALM_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L/PALM_L/FINGERS_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L/THUMB_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R/PALM_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R/PALM_R/FINGERS_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R/THUMB_R
+        weight: 1
+      - path: Cylinder_011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: LFlyLeft
+      takeName: ArmatureAction_008
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Area
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Empty
+        weight: 1
+      - path: Armature/LOWER_AB
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L/ANKLE_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L/ANKLE_L/FOOT_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L/tail_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R/ANKLE_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R/ANKLE_R/FOOT_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R/Tail_r
+        weight: 1
+      - path: Armature/UPPER_AB
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/JET_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/JET_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/NECK
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/NECK/HEAD
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L/PALM_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L/PALM_L/FINGERS_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L/THUMB_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R/PALM_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R/PALM_R/FINGERS_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R/THUMB_R
+        weight: 1
+      - path: Cylinder_011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: LFlyForward
+      takeName: ArmatureAction_009
+      firstFrame: -1
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Area
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Empty
+        weight: 1
+      - path: Armature/LOWER_AB
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L/ANKLE_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L/ANKLE_L/FOOT_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L/tail_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R/ANKLE_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R/ANKLE_R/FOOT_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R/Tail_r
+        weight: 1
+      - path: Armature/UPPER_AB
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/JET_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/JET_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/NECK
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/NECK/HEAD
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L/PALM_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L/PALM_L/FINGERS_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L/THUMB_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R/PALM_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R/PALM_R/FINGERS_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R/THUMB_R
+        weight: 1
+      - path: Cylinder_011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: LFlyBack
+      takeName: ArmatureAction_010
+      firstFrame: -1
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Area
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Empty
+        weight: 1
+      - path: Armature/LOWER_AB
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L/ANKLE_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L/ANKLE_L/FOOT_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L/tail_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R/ANKLE_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R/ANKLE_R/FOOT_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R/Tail_r
+        weight: 1
+      - path: Armature/UPPER_AB
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/JET_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/JET_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/NECK
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/NECK/HEAD
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L/PALM_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L/PALM_L/FINGERS_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L/THUMB_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R/PALM_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R/PALM_R/FINGERS_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R/THUMB_R
+        weight: 1
+      - path: Cylinder_011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: LIdle
+      takeName: ArmatureAction_011
+      firstFrame: -1
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Area
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Empty
+        weight: 1
+      - path: Armature/LOWER_AB
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L/ANKLE_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L/ANKLE_L/FOOT_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_L/thigh_L/tail_L
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R/ANKLE_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R/ANKLE_R/FOOT_R
+        weight: 1
+      - path: Armature/LOWER_AB/HIP_R/THIGH_R/Tail_r
+        weight: 1
+      - path: Armature/UPPER_AB
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/JET_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/JET_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/NECK
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/NECK/HEAD
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L/PALM_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L/PALM_L/FINGERS_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_L/BICEP_L/FOREARM_L/THUMB_L
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R/PALM_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R/PALM_R/FINGERS_R
+        weight: 1
+      - path: Armature/UPPER_AB/CHEST/SHOULDER_R/BICEP_R/FOREARM_R/THUMB_R
+        weight: 1
+      - path: Cylinder_011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
